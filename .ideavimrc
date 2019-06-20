@@ -1,0 +1,26 @@
+" use system clipboard
+set clipboard+=unnamed
+
+" set leader as space
+let mapleader = " "
+
+" got to declaration
+nmap <leader>g :action GotoDeclaration<cr>
+
+" back
+nmap <leader>b :action Back<cr>
+
+" forward
+nmap <leader>f :action Forward<cr>
+
+" split vertically
+ nmap <leader>s :action SplitVertically<cr>
+
+" run formatter
+nmap <leader>l :action Tool_External Tools_Formatter<cr>
+
+" show usage
+nmap <leader>u :action ShowUsages<cr>
+
+" airjump
+nmap <leader>; :action KJumpAction<CR>

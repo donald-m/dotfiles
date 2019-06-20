@@ -1,0 +1,67 @@
+{
+  "editor.fontFamily": "Monaco",
+  "editor.fontSize": 13.5,
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 0.2,
+  "explorer.openEditors.visible": 0,
+  "editor.lineNumbers": "relative",
+  "workbench.statusBar.feedback.visible": false,
+  "telemetry.enableTelemetry": false,
+  "prettier.stylelintIntegration": true,
+  "editor.minimap.enabled": false,
+  "npm.enableScriptExplorer": true,
+  "git.allowForcePush": true,
+  "vim.leader": "<space>",
+  "vim.easymotion": true,
+  "vim.sneak": false,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.handleKeys": {
+    "<C-a>": true,
+    "<C-f>": true,
+    "<C-x>": true
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["git.push"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["workbench.files.action.collapseExplorerFolders"]
+    }
+  ],
+
+  "terminal.external.osxExec": "iTerm.app",
+  "workbench.activityBar.visible": false,
+  "files.exclude": {
+    "**/.idea": true,
+    "**/.vscode": true
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.views.fileHistory.location": "scm",
+  "gitlens.views.lineHistory.location": "scm",
+  "gitlens.views.search.location": "scm",
+  "gitlens.views.compare.location": "scm",
+  "gitlens.views.repositories.location": "scm",
+  "gitlens.views.search.enabled": false,
+  "workbench.sideBar.location": "left",
+  "workbench.iconTheme": "simple-icons",
+  "workbench.list.openMode": "doubleClick",
+  "workbench.editor.showTabs": false,
+  "workbench.colorTheme": "Default Light+"
+}
