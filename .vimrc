@@ -6,6 +6,8 @@ set wildmenu                       "shows autocomplete options in a nice menu li
 set wildignore=*.swp,*.bak,*.pyc   "ignore certain file types in autocompletion
 
 "-- Syntax --
+set termguicolors     " enable true colors support
+let ayucolor="light"  " for light version of theme
 filetype on                        "auto detect filetype
 syntax on                          "syntax highlighting
 
@@ -14,7 +16,7 @@ set shortmess=atI                  " Don't show the intro message when starting 
 set title                          " set the terminal title
 set t_Co=256                       " set 256 colours
 set background=dark 
-colorscheme dracula
+colorscheme ayu
 set ruler                          "show status line
 set rulerformat=%10(%l,%c%V%)
 set laststatus=2                   "always show status line
