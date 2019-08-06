@@ -3,7 +3,7 @@ source ~/.functions.sh
 # Use config command to manage dotfiles git repo
 alias config='/usr/local/bin/git --git-dir=/Users/donald/.cfg/ --work-tree=/Users/donald'
 # Include phpcs (PHP Code Sniffer)
-export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="$HOME/vendor/bin:$PATH"
 
 # Include path for AWS CLI
 export PATH="$HOME/Library/Python/3.7/bin:$PATH"
