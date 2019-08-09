@@ -3,6 +3,7 @@
   "editor.fontSize": 13.5,
   "editor.lineHeight": 24,
   "editor.fontLigatures": true,
+  "editor.renderWhitespace":"selection",
   "window.zoomLevel": 0.2,
   "explorer.openEditors.visible": 0,
   "editor.lineNumbers": "relative",
@@ -25,19 +26,33 @@
   },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "f"],
-      "commands": ["editor.action.formatDocument"]
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "editor.action.formatDocument"
+      ]
     },
     {
-      "before": ["<leader>", "g"],
-      "commands": ["git.push"]
+      "before": [
+        "<leader>",
+        "g"
+      ],
+      "commands": [
+        "git.push"
+      ]
     },
     {
-      "before": ["<leader>", "c"],
-      "commands": ["workbench.files.action.collapseExplorerFolders"]
+      "before": [
+        "<leader>",
+        "c"
+      ],
+      "commands": [
+        "workbench.files.action.collapseExplorerFolders"
+      ]
     }
   ],
-
   "terminal.external.osxExec": "iTerm.app",
   "workbench.activityBar.visible": false,
   "files.exclude": {
