@@ -6,7 +6,6 @@
   "window.zoomLevel": 0.2,
   "explorer.openEditors.visible": 0,
   "editor.lineNumbers": "relative",
-  "workbench.statusBar.feedback.visible": false,
   "telemetry.enableTelemetry": false,
   "prettier.stylelintIntegration": true,
   "editor.minimap.enabled": false,
@@ -60,8 +59,11 @@
   "gitlens.views.repositories.location": "scm",
   "gitlens.views.search.enabled": false,
   "workbench.sideBar.location": "left",
-  "workbench.iconTheme": "simple-icons",
+  "workbench.iconTheme": "minimalistic-icons",
   "workbench.list.openMode": "doubleClick",
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "Default Light+"
+  "workbench.colorTheme": "BeardedTheme Solarized Light",
+  "[php]": {
+    "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
+  }
 }
