@@ -1,6 +1,9 @@
 " use system clipboard
 set clipboard+=unnamed
 
+" use vim surround
+set surround
+
 " set leader as space
 let mapleader = " "
 
