@@ -19,6 +19,7 @@
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
+  "vim.surround": true,
   "vim.handleKeys": {
     "<C-a>": true,
     "<C-f>": true,
@@ -51,6 +52,15 @@
       "commands": [
         "workbench.files.action.collapseExplorerFolders"
       ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "k"
+      ],
+      "commands": [
+        "workbench.action.closeAllEditors"
+      ]
     }
   ],
   "terminal.external.osxExec": "iTerm.app",
@@ -74,10 +84,10 @@
   "gitlens.views.repositories.location": "scm",
   "gitlens.views.search.enabled": false,
   "workbench.sideBar.location": "left",
-  "workbench.iconTheme": "minimalistic-icons",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.list.openMode": "doubleClick",
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "BeardedTheme Solarized Light",
+  "workbench.colorTheme": "One Dark Pro",
   "[php]": {
     "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
   }
