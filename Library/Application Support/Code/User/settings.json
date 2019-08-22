@@ -96,7 +96,7 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.list.openMode": "doubleClick",
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "BeardedTheme Solarized Light",
   "[php]": {
     "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
   }
