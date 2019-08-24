@@ -17,7 +17,7 @@ nmap <leader>b :action Back<cr>
 nmap <leader>f :action Forward<cr>
 
 " split vertically
- nmap <leader>s :action SplitVertically<cr>
+nmap <leader>s :action SplitVertically<cr>
 
 " run formatter
 nmap <leader>l :action Tool_External Tools_Formatter<cr>
