@@ -25,4 +25,5 @@ set relativenumber                 "show relatve line numbers
 set numberwidth=5
 set incsearch          		   " search as characters are entered
 set hlsearch           		   " highlight matches
-
+" insert space in normal mode on space bar
+:nnoremap <space> i<space><esc>
