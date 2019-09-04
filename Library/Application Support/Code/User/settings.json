@@ -1,6 +1,6 @@
 {
   "editor.fontFamily": "Monaco",
-  "editor.fontSize": 13.5,
+  "editor.fontSize": 13,
   "editor.lineHeight": 24,
   "editor.fontLigatures": true,
   "editor.renderWhitespace":"selection",
@@ -8,7 +8,7 @@
   "explorer.openEditors.visible": 0,
   "editor.lineNumbers": "relative",
   "telemetry.enableTelemetry": false,
-  "prettier.stylelintIntegration": true,
+  "prettier.stylelint": true,
   "editor.minimap.enabled": false,
   "npm.enableScriptExplorer": true,
   "git.allowForcePush": true,
@@ -96,7 +96,7 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.list.openMode": "doubleClick",
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "BeardedTheme Solarized Light",
+  "workbench.colorTheme": "Daybreak",
   "[php]": {
     "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
   }
