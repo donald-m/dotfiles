@@ -20,7 +20,6 @@ set ruler                          "show status line
 set rulerformat=%10(%l,%c%V%)
 set laststatus=2                   "always show status line
 set cursorline                     "highlight current line
-set relativenumber                 "show relatve line numbers
 set numberwidth=5
 set incsearch          		   " search as characters are entered
 set hlsearch           		   " highlight matches
