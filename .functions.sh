@@ -186,30 +186,30 @@ function o() {
     if [[ $@ == "~" ]]; then
         command open ~
         elif [[ $@ == "sar" ]]; then
-        command open /Volumes/Work/GitHub/sunriseafrica.org.uk
+        command open /Users/donald/GitHub/sunriseafrica.org.uk
         elif [[ $@ == "sartheme" ]]; then
-        command open  /Volumes/Work/GitHub/sunriseafrica.org.uk/web/app/themes/sunriseafrica
+        command open  /Users/donald/GitHub/sunriseafrica.org.uk/web/app/themes/sunriseafrica
         elif [[ $@ == "etc" ]]; then
         command open /usr/local/etc
         elif [[ $@ == "pics" ]]; then
         command open $HOME/Pictures
         elif [[ $@ == "gh" ]]; then
-        command open /Volumes/Work/GitHub
+        command open /Users/donald/GitHub
     fi
 }
 
 # Open in terminal
 function ot() {
     if [[ $@ == "sar" ]]; then
-        cd /Volumes/Work/GitHub/sunriseafrica.org.uk 
+        cd /Users/donald/GitHub/sunriseafrica.org.uk 
         elif [[ $@ == "sartheme" ]]; then
-        cd /Volumes/Work/GitHub/sunriseafrica.org.uk/web/app/themes/sunriseafrica 
+        cd /Users/donald/GitHub/sunriseafrica.org.uk/web/app/themes/sunriseafrica 
         elif [[ $@ == "etc" ]]; then
         cd /usr/local/etc
         elif [[ $@ == "pics" ]]; then
         cd $HOME/Pictures
         elif [[ $@ == "gh" ]]; then
-        cd /Volumes/Work/GitHub
+        cd /Users/donald/GitHub
     fi
 }
 
