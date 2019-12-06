@@ -15,7 +15,7 @@ set shortmess=atI                  " Don't show the intro message when starting 
 set title                          " set the terminal title
 set t_Co=256                       " set 256 colours
 set background=dark 
-colorscheme gruvbox
+colorscheme bluewery
 set ruler                          "show status line
 set rulerformat=%10(%l,%c%V%)
 set laststatus=2                   "always show status line
