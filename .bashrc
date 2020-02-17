@@ -1,4 +1,4 @@
-# load functions
+ #load functions
 source ~/.functions.sh
 # Use config command to manage dotfiles git repo
 alias config='/usr/local/bin/git --git-dir=/Users/donald/.cfg/ --work-tree=/Users/donald'
@@ -19,3 +19,6 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export PATH="/usr/local/opt/php@7.3/bin:$PATH"
 export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
+
+# hide Catalina zsh message in terminal
+export BASH_SILENCE_DEPRECATION_WARNING=1
