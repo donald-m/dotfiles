@@ -96,7 +96,7 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.list.openMode": "doubleClick",
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "One Monokai",
+  "workbench.colorTheme": "Material Theme",
   "[php]": {
     "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
   }
