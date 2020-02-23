@@ -2,8 +2,9 @@
 source ~/.functions.sh
 # Use config command to manage dotfiles git repo
 alias config='/usr/local/bin/git --git-dir=/Users/donald/.cfg/ --work-tree=/Users/donald'
+
 # Include phpcs (PHP Code Sniffer)
-export PATH="$HOME/vendor/bin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # git autocompletion
 if [ -f ~/.git-completion.bash ]; then
