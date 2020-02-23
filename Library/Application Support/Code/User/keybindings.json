@@ -31,5 +31,20 @@
     "key": "alt+down",
     "command": "editor.action.smartSelect.shrink",
     "when": "editorTextFocus"
-  }
+  },
+  {
+		"key": "alt+shift+f",
+		"command": "stylelint.executeAutofix",
+		"when": "editorTextFocus && editorLangId == 'css'"
+	},
+	{
+		"key": "alt+shift+f",
+		"command": "stylelint.executeAutofix",
+		"when": "editorTextFocus && editorLangId == 'scss'"
+	},
+	{
+		"key": "alt+shift+f",
+		"command": "stylelint.executeAutofix",
+		"when": "editorTextFocus && editorLangId == 'less'"
+	}
 ]
