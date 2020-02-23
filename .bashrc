@@ -11,6 +11,7 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
 # colors for git
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
@@ -26,3 +27,4 @@ export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
 
 # hide Catalina zsh message in terminal
 export BASH_SILENCE_DEPRECATION_WARNING=1
+
