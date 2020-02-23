@@ -20,7 +20,7 @@ nmap <leader>f :action Forward<cr>
 nmap <leader>s :action SplitVertically<cr>
 
 " run formatter
-nmap <leader>l :action Tool_External Tools_Formatter<cr>
+nmap <leader>l :action Tool_External Tools_format<cr>
 
 " show usage
 nmap <leader>u :action ShowUsages<cr>
