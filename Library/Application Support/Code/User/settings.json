@@ -1,10 +1,10 @@
 {
-  "editor.fontFamily": "Menlo",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 24,
+  "editor.fontFamily": "FiraCode-Retina",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 23,
   "editor.fontLigatures": true,
   "editor.renderWhitespace":"selection",
-  "window.zoomLevel": 0.2,
+  "window.zoomLevel": 0.9,
   "explorer.openEditors.visible": 0,
   "editor.lineNumbers": "relative",
   "telemetry.enableTelemetry": false,
@@ -93,10 +93,10 @@
   "gitlens.views.repositories.location": "scm",
   "gitlens.views.search.enabled": false,
   "workbench.sideBar.location": "left",
-  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
   "workbench.list.openMode": "doubleClick",
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "Material Theme",
+  "workbench.colorTheme": "Ayu Dark",
   "[php]": {
     "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
   },
