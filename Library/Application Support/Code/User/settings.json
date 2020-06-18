@@ -4,7 +4,7 @@
   "editor.lineHeight": 23,
   "editor.fontLigatures": true,
   "editor.renderWhitespace":"selection",
-  "window.zoomLevel": 0.9,
+  "window.zoomLevel": 1,
   "explorer.openEditors.visible": 0,
   "editor.lineNumbers": "relative",
   "telemetry.enableTelemetry": false,
@@ -96,7 +96,7 @@
   "workbench.iconTheme": "eq-material-theme-icons-darker",
   "workbench.list.openMode": "doubleClick",
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "Ayu Dark",
+  "workbench.colorTheme": "Material Theme",
   "[php]": {
     "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
   },
@@ -104,5 +104,18 @@
   "eslint.format.enable": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "bracketPairColorizer.consecutivePairColors": [
+    "()",
+    "[]",
+    "{}",
+    ["<", "</"],
+    ["<", "/>"],
+    [
+        "Gold",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    "Red"
+],
 }

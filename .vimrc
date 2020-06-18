@@ -6,7 +6,6 @@ set wildmenu                       "shows autocomplete options in a nice menu li
 set wildignore=*.swp,*.bak,*.pyc   "ignore certain file types in autocompletion
 
 "-- Syntax --
-set termguicolors     " enable true colors support
 filetype on                        "auto detect filetype
 syntax on                          "syntax highlighting
 
@@ -14,9 +13,8 @@ syntax on                          "syntax highlighting
 set shortmess=atI                  " Don't show the intro message when starting vim
 set title                          " set the terminal title
 set t_Co=256                       " set 256 colours
-set background=dark 
-colorscheme bluewery
 set ruler                          "show status line
+colorscheme github
 set rulerformat=%10(%l,%c%V%)
 set laststatus=2                   "always show status line
 set cursorline                     "highlight current line
