@@ -179,40 +179,6 @@ function list() {
         command brew services list
     fi
 }
-
-
-#  Open in Finder
-function o() {
-    if [[ $@ == "~" ]]; then
-        command open ~
-        elif [[ $@ == "sar" ]]; then
-        command open /Users/donald/GitHub/sunriseafrica.org.uk
-        elif [[ $@ == "sartheme" ]]; then
-        command open  /Users/donald/GitHub/sunriseafrica.org.uk/web/app/themes/sunriseafrica
-        elif [[ $@ == "etc" ]]; then
-        command open /usr/local/etc
-        elif [[ $@ == "pics" ]]; then
-        command open $HOME/Pictures
-        elif [[ $@ == "gh" ]]; then
-        command open /Users/donald/GitHub
-    fi
-}
-
-# Open in terminal
-function ot() {
-    if [[ $@ == "sar" ]]; then
-        cd /Users/donald/GitHub/sunriseafrica.org.uk 
-        elif [[ $@ == "sartheme" ]]; then
-        cd /Users/donald/GitHub/sunriseafrica.org.uk/web/app/themes/sunriseafrica 
-        elif [[ $@ == "etc" ]]; then
-        cd /usr/local/etc
-        elif [[ $@ == "pics" ]]; then
-        cd $HOME/Pictures
-        elif [[ $@ == "gh" ]]; then
-        cd /Users/donald/GitHub
-    fi
-}
-
 # Open github repo in current dir
 function github() {
   giturl=$(git config --get remote.origin.url)
