@@ -96,7 +96,6 @@
   "workbench.iconTheme": "eq-material-theme-icons-darker",
   "workbench.list.openMode": "doubleClick",
   "workbench.editor.showTabs": false,
-  "workbench.colorTheme": "Material Theme",
   "[php]": {
     "editor.defaultFormatter": "persoderlind.vscode-phpcbf"
   },

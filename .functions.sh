@@ -146,14 +146,14 @@ shellswitch () {
 # stop php, nginx, mariadb or all
 function halt() {
     if [[ $@ == "php" ]]; then
-        command brew services stop php@7.3
+        command brew services stop php
         elif [[ $@ == "nginx" ]]; then
         command sudo brew services stop nginx
         elif [[ $@ == "mariadb" ]]; then
         command brew services stop mariadb
         elif [[ $@ == "all" ]]; then
         command sudo brew services stop nginx
-        command brew services stop php@7.3
+        command brew services stop php
         command brew services stop mariadb
     fi
 }
@@ -161,14 +161,14 @@ function halt() {
 # start php, nginx, mariadb or all
 function start() {
     if [[ $@ == "php" ]]; then
-        command brew services start php@7.3
+        command brew services start php
         elif [[ $@ == "nginx" ]]; then
         command sudo brew services start nginx
         elif [[ $@ == "mariadb" ]]; then
         command brew services start mariadb
         elif [[ $@ == "all" ]]; then
         command brew services start mariadb
-        command brew services start php@7.3
+        command brew services start php
         command sudo brew services start nginx
     fi
 }
@@ -191,4 +191,11 @@ function github() {
   giturl=${giturl/\.git//}
   echo $giturl
   open $giturl
+}
+
+# Start Ontario Project in Nginx
+function loadOntario() {
+  PATH = "/usr/local/nginx/"
+      command halt all;
+      cp
 }
